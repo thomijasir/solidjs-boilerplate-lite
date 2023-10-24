@@ -1,0 +1,28 @@
+{
+  "name": "solid-boilerplate",
+  "author": "Thomi Jasir<thomijasir@gmail.com>",
+  "description": "Pre-configuration Solid Template",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "release": "yarn clean && tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.3",
+    "solid-js": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "terser": "^5.22.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
